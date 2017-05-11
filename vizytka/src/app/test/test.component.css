@@ -5,7 +5,7 @@ p {
 }
 
 .jambo {
-  background-image: url(/assets/images/image5a.jpg);
+  background-image: url("/assets/images/image5a.jpg");
   background-position: right bottom, left top;
   background-repeat: no-repeat repeat;
   padding: 15px;
