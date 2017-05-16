@@ -29,7 +29,7 @@ export class ContactComponent implements OnInit {
         document.getElementById("tel").innerHTML = clientData.tel;
       }
     };
-    xhr.open('GET', '../assets/data.json', true);
+    xhr.open('GET', 'assets/data.json', true);
     xhr.send();
   }
 }

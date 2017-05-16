@@ -1,18 +1,22 @@
 .jambo {
-  background-color: #F9E5DA  ;
+  background-color: #F9E5DA;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 h1, h2 {
   font-family: 'Marck Script', cursive;
   color: #F41979;
 }
+
 p {
   font-family: 'Neucha', cursive;
 }
+
 .pojawa1, .pojawa2, .pojawa3 {
   display: none;
   padding: 1em;
 }
+
 .fon {
   background: url("/assets/images/image6b.jpg");
   background-color: #f4f7fe;
@@ -21,6 +25,7 @@ p {
   padding: 1em 1em 17em 1em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .item {
   cursor: pointer;
 }

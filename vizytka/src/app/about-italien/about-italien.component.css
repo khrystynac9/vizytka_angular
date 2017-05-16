@@ -2,41 +2,79 @@
   max-height: 400px;
   margin: 0 auto;
 }
+
 .carousel-inner > .item > img {
   margin: 0 auto;
 }
+
 .jambo {
-  background-image: url("/assets/images/image12.jpg");
-  /*background-color: #F9E5DA  ;*/
+  background-image: url("/assets/images/image12a.jpg");
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat;
 }
+
 .kuchnia {
   margin-bottom: 200px;
 }
+
 h1, h2 {
   font-family: 'Marck Script', cursive;
   color: #F41979;
+  font-size: 1.2em;
 }
+
 p {
   font-family: 'Neucha', cursive;
+  font-size: 1.2em;
+  text-align: justify;
 }
+
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
 }
-.float_left {
-  width: 40%;
-  float: left;
-  margin-right: 3em;
-  border: 3px inset #F41979  ;
+
+.float_left, .float_right {
+  float: none;
+  width: 100%;
+  border: 1.5px inset #F41979;
   border-radius: 7px;
 }
-.float_right {
-  width: 40%;
-  float: right;
-  margin-left: 3em;
-  border: 3px solid #F41979 ;
-  border-radius: 7px;
+
+.float_left iframe, .float_right iframe {
+  width: 100%;
 }
+
+@media screen and (min-width: 640px) {
+  .float_left {
+    width: 40%;
+    float: left;
+    margin-right: 3em;
+    border: 3px inset #F41979;
+    border-radius: 7px;
+  }
+
+  .float_right {
+    width: 40%;
+    float: right;
+    margin-left: 3em;
+    border: 3px solid #F41979;
+    border-radius: 7px;
+  }
+
+  h1, h2, p {
+    font-size: 1.6em;
+  }
+
+  .jambo {
+    padding-bottom: 2em;
+  }
+}
+
+
+
+
+
 
