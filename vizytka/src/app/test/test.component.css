@@ -20,4 +20,10 @@ p {
 h1, h2 {
   font-family: 'Marck Script', cursive;
 }
+@media screen and (max-width: 640px) {
+  .jambo{
+    background-image: none;
+    background-color: #281A1E;
+  }
 
+}

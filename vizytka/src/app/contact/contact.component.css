@@ -1,15 +1,17 @@
 .jambo {
-  background-image: url("/assets/images/image19.jpg");
+  background-image: url("/assets/images/image19a.jpg");
   background-repeat: no-repeat;
+  background-position: right bottom, left top;
   padding: 25% 30%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .transbox {
-  margin: 30px;
+  /*margin: 30px;*/
   background-color: #FAF6F2;
   border: 1px solid black;
   opacity: 0.7;
+  height:95%;
 }
 
 .transbox p, button {
@@ -19,3 +21,10 @@
   font-family: 'Marck Script', cursive;
   font-size: 1.6em;
 }
+
+@media screen and (max-width: 640px) {
+  .jambo {
+    padding: 0% 0%;
+  }
+}
+
